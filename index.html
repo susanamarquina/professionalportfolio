@@ -216,34 +216,6 @@
   .btn .arrow { transition: transform .2s ease; }
   .btn:hover .arrow { transform: translateX(3px); }
 
-  /* Stat callouts */
-  .stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: clamp(20px, 3vw, 40px);
-    padding-top: clamp(40px, 6vw, 70px);
-    border-top: 1px solid var(--rule);
-  }
-  .stat .num {
-    font-family: var(--serif);
-    font-size: clamp(40px, 5vw, 60px);
-    line-height: 1;
-    color: var(--ink);
-    letter-spacing: -0.03em;
-  }
-  .stat .num .ital { color: var(--accent); }
-  .stat .label {
-    margin-top: 14px;
-    font-size: 13px;
-    color: var(--ink-faint);
-    line-height: 1.5;
-    max-width: 22ch;
-  }
-  @media (max-width: 640px) {
-    .stats { grid-template-columns: 1fr; gap: 26px; }
-    .stat .num { font-size: 44px; }
-  }
-
   /* =========================================================
      SECTION SHELL
      ========================================================= */
